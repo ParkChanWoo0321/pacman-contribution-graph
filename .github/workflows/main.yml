@@ -2,7 +2,7 @@ name: generate pacman game
 
 on:
   schedule:
-    - cron: '0 4 * * *' # 매일 13시에 자동 실행 (한국 시간 기준)
+    - cron: '0 4 * * *'
   workflow_dispatch:
   push:
     branches:
